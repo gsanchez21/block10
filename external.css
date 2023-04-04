@@ -1,0 +1,53 @@
+.flexcontainer {
+  flex-direction: row-reverse;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  z-index: 9;
+}
+
+.flexcontainer1 {
+  flex-direction: row-reverse;
+  justify-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: wrap;
+  z-index: 1;
+}
+
+/*.square1, .box1, .circle1, .square2, .box2, .circle2 {
+    display: flex;
+    background-color: aqua;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex:content;
+ 
+}*/
+.box1,
+.square1,
+.circle1 {
+  background-color: #669ed5;
+  color: black;
+  width: 100px;
+  margin: 10px;
+}
+
+.box2,
+.square2,
+.circle2 {
+  background-color: #0051ff;
+  color: black;
+  width: 150px;
+  margin: 30px;
+}
+
+.flex-item {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 36pt;
+  text-align: center;
+  padding: 100px;
+}
